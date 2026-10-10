@@ -1,0 +1,23 @@
+[
+ {"id":1,"category":"easy","question":"How many days of annual leave do employees get per year?","reference":"24 days per year, accrued at 2 days per month.","source":"leave_policy.md"},
+ {"id":2,"category":"easy","question":"Which days are mandatory office days?","reference":"Tuesday, Wednesday and Thursday.","source":"remote_work.md"},
+ {"id":3,"category":"easy","question":"How much is the one-time home-office stipend?","reference":"₹15,000.","source":"remote_work.md"},
+ {"id":4,"category":"easy","question":"Within how many days must expense claims be submitted?","reference":"Within 30 days of the expense.","source":"expenses.md"},
+ {"id":5,"category":"easy","question":"What is the annual learning budget per employee?","reference":"₹40,000 per year, needing manager approval.","source":"learning.md"},
+ {"id":6,"category":"easy","question":"How quickly must a lost laptop be reported?","reference":"Within 2 hours, to security@zentra.example.","source":"security.md"},
+ {"id":7,"category":"easy","question":"How long is the probation period?","reference":"6 months.","source":"onboarding.md"},
+ {"id":8,"category":"easy","question":"How much is the referral bonus and when is it paid?","reference":"₹30,000, paid after the referred employee completes 6 months.","source":"benefits.md"},
+ {"id":9,"category":"easy","question":"How long is maternity leave?","reference":"26 weeks.","source":"leave_policy.md"},
+ {"id":10,"category":"easy","question":"How much internet reimbursement do I get monthly?","reference":"₹1,000 per month, on submission of the bill.","source":"remote_work.md"},
+ {"id":11,"category":"conditional","question":"How many leave days can I carry forward and what happens to the rest?","reference":"Up to 10 days can be carried forward; the balance lapses on 31 March.","source":"leave_policy.md"},
+ {"id":12,"category":"conditional","question":"I was sick for 3 days in a row. Do I need a medical certificate?","reference":"Yes, a medical certificate is required because it exceeds 2 consecutive days.","source":"leave_policy.md"},
+ {"id":13,"category":"conditional","question":"What flight class can I book for an 8-hour flight?","reference":"Premium economy, since the flight is longer than 6 hours.","source":"expenses.md"},
+ {"id":14,"category":"conditional","question":"Who needs to approve a ₹70,000 expense claim?","reference":"The Finance Head, because it is above the ₹50,000 manager limit.","source":"expenses.md"},
+ {"id":15,"category":"conditional","question":"What is the hotel cap per night when I travel to Bengaluru?","reference":"₹8,000 per night (Bengaluru is a metro city).","source":"expenses.md"},
+ {"id":16,"category":"conditional","question":"I got a certification fee reimbursed and want to quit after 8 months. Do I owe anything?","reference":"Yes, leaving within 12 months of reimbursement means repaying it pro-rata.","source":"learning.md"},
+ {"id":17,"category":"multi_hop","question":"I'm an L4 engineer with a base salary of ₹20,00,000 and a rating of 4. What is my target bonus?","reference":"15% of base for L4, i.e. ₹3,00,000; eligible because rating is 3 or higher.","source":"performance.md"},
+ {"id":18,"category":"multi_hop","question":"Can I work remotely from my hometown for 6 weeks this year?","reference":"No. Remote work outside the city is capped at 30 days per calendar year with manager approval; 6 weeks exceeds that.","source":"remote_work.md"},
+ {"id":19,"category":"unanswerable","question":"What is the company's policy on stock options (ESOPs)?","reference":"NOT_IN_DOCS","source":null},
+ {"id":20,"category":"unanswerable","question":"How many days of bereavement leave do I get?","reference":"NOT_IN_DOCS","source":null},
+ {"id":21,"category":"unanswerable","question":"What is the office dress code?","reference":"NOT_IN_DOCS","source":null}
+]
